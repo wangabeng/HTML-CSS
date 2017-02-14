@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Document</title>
+<style>
+</style>
+</head>
+<body>
+<form >
+	<fieldset>
+		<legend>title</legend>
+		<label for='please'>点击文字会自动获取焦点</label><input type='text' id='please'>
+	</fieldset>
+</form>
+
+</body>
+</html>
