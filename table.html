@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Document</title>
+<style>
+.table{
+	width:300px;
+	height:300px;
+	margin:0 auto;/*align:center可以用于行间样式，使表格居中对齐 如果在样式表里会失效。在样式表里要用margin：0 auto来设置*/
+	border:1px solid red;
+	border-collapse:collapse;
+}
+.table td{
+	border:1px solid red;
+	text-align:center;/*水平方向对齐left center right*/
+	vertical-align:bottom;/*垂直方向对齐 bottom middle top*/
+}
+</style>
+</head>
+<body>
+<table class="table">
+	<tr><!--如果在tr行内加 border-collapse='collapse' 也不会起作用。 style=" border-collapse:collapse"有效-->
+		<td>A</td>
+		<td>B</td>
+		<td>C</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>2</td>
+		<td>3</td>
+	</tr>
+	<tr>
+		<td>4</td>
+		<td>5</td>
+		<td>6</td>
+	</tr>
+</table>
+
+</body>
+</html>
