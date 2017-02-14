@@ -1,0 +1,13 @@
+给父级插入一个伪类：
+.clearfix:after{
+	content:””;
+	display:block;
+  height:0;
+  line-height:0;
+  visibility:hidden;
+  clear:both;	
+}
+.clearfix{
+	zoom:1;//为了兼容IE浏览器
+}
+网易也是采用这样的方法清除浮动。
