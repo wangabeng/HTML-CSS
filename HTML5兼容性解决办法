@@ -1,0 +1,20 @@
+<script>
+  document.createElement("header");//缺什么元素 就创建什么元素
+  document.createElement("section");
+</script>
+
+<style>
+  header{
+    width:300px;
+    height:300px;
+    display:block;/*设置为块元素*/
+    background:red;
+  }
+   section{
+    width:300px;
+    height:300px;
+    display:block;/*设置为块元素*/
+    background:yellow;
+  }
+</style>
+以上的方法需要手动创建 效率高点的方法是使用专门创建html5的插件 html5shiv.js
